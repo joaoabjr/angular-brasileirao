@@ -1,0 +1,24 @@
+header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+header img {
+	max-width: 70px;
+	padding: 20px;
+}
+.tabela-times {
+	border-collapse: collapse;
+	margin: 0 auto;
+	font-size: 0.9em;
+	font-family: sans-serif;
+	min-width: 400px;
+	box-shadow: 0 0 20px rgb(194, 194, 194);
+	&__escudo {
+		max-width: 35px;
+	}
+	&__body {
+		text-align: center;
+	}
+}
